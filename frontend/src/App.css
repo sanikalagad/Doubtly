@@ -1,0 +1,37 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.app-header .brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #4338ca;
+}
+
+.app-header nav,
+.app-header .auth-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.app-header a {
+  text-decoration: none;
+  color: #374151;
+}
+
+.app-header a:hover {
+  color: #4338ca;
+}
+
+.app-header .auth-links {
+  margin-left: auto;
+}
+
+.page {
+  padding: 2rem;
+}
